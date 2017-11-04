@@ -25,19 +25,18 @@ body {
 }
 
 form {
-    text-align: center;
     color: gray;
     font-size: 16px;
 }
 
 form input {
-    width: calc(100% - 300px);
-    height: 60px;
+    width: 592px;
+    height: 58px;
     font-size: 24px;
     padding-left: 18px;
     border: none;
     background: none;
-    float: left;
+    position: absolute;
 }
 
 #inputchelou {
@@ -45,11 +44,23 @@ form input {
     height: 60px;
     border-radius: 5px;
     border: solid gray 1px;
+    margin-bottom: 15px;
 }
 
 form button {
-    width: 250px;
+    width: 150px;
     float: right;
+    height: calc(100% - 10px);
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 24px;
+    margin: 5px;
+    border: none;
+}
+
+form button:hover {
+    cursor: pointer;
 }
 
 .title {
@@ -104,6 +115,6 @@ a {
     /* Controls the size: */
     margin: 0;
     grid-column: 1 / 13;
-    height: 0;
+    height: 1px;
     border-top: solid 1px lightgray;
 }
